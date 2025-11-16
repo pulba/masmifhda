@@ -1,0 +1,19 @@
+---
+import Navbar from "../components/Navbar.astro";
+import "../styles/global.css";
+import '@fontsource/poppins';
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title} || MAS MIFTAHUL HUDA SANYIR</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="bg-white font-sans">
+    <Navbar />
+      <slot />
+  </body>
+</html>

@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+import ex1 from '../assets/mifda-4.jpeg'
+import ex2 from '../assets/mifda-5.jpeg'
+import ex3 from '../assets/mifda-6.jpeg'
+import ex4 from '../assets/mifda-7.jpeg'
+import ex5 from '../assets/mifda-8.jpeg'
+import ex6 from '../assets/mifda-9.jpeg'
+import ex7 from '../assets/mifda-10.jpeg'
+import ex8 from '../assets/mifda-11.jpeg'
+const clubs = [
+{ name: "Menjahit", img: ex1 },
+{ name: "Pramuka", img: ex2 },
+{ name: "Multimedia", img: ex3 },
+{ name: "Komputer", img: ex4 },
+{ name: "Elektro", img: ex5 },
+{ name: "Tata Boga", img: ex6 },
+{ name: "Volly Ball", img: ex7 },
+{ name: "Arsitektur", img: ex8 },
+];
+
+---
+---
+<section class="bg-white text-green-800 py-8">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center">Ekstrakurikuler</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
+      {clubs.map(person => ( 
+      <div class="relative overflow-hidden text-primary shadow text-center w-full"> 
+        <Image src={person.img} alt={person.name} class="mx-auto rounded-t-md aspect-square object-top object-cover" /> 
+        <p class="absolute bottom-5 bg-white/50 text-green-800 font-bold w-full">{person.name}</p> 
+      </div> 
+    ))}
+    </div>
+  </div>
+</section>

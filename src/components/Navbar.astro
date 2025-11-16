@@ -1,0 +1,108 @@
+---
+import { Image } from "astro:assets";
+import Logo from "../assets/logo.png";
+---
+
+<nav
+  x-data="{ open: false }"
+  class="py-4 px-6 flex flex-col md:flex-row justify-between items-center sticky top-0 z-50 bg-white w-full shadow"
+>
+  <div class="container mx-auto flex items-center justify-between">
+    <a
+      href="/"
+      class="flex gap-2 items-center font-bold text-lg text-green-800"
+    >
+      <Image src={Logo} alt="logo ma miftahul huda sanyir" class="w-12 h-12" />
+      <h1>MAS MIFHDA</h1>
+    </a>
+    <!-- Tombol hamburger mobile -->
+    <button
+      class="md:hidden inline-flex items-center justify-center p-2 rounded text-green-800 border border-green-800"
+      @click="open = !open"
+      aria-label="Toggle navigation"
+    >
+      <svg
+        x-show="!open"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+      <svg
+        x-show="open"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+
+    <!-- Menu desktop -->
+    <ul class="md:flex space-x-4 ml-8 hidden">
+      <li>
+        <a href="/profile" class="text-primary hover:text-secondary"
+          >Profil Sekolah</a
+        >
+      </li>
+      <li>
+        <a href="/news" class="text-primary hover:text-secondary">Berita</a>
+      </li>
+      <li>
+        <a href="/achievements" class="text-primary hover:text-secondary"
+          >Prestasi</a
+        >
+      </li>
+      <li>
+        <a href="/contact" class="text-primary hover:text-secondary">Kontak</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Menu mobile -->
+  <div
+    class="container mx-auto w-full md:hidden"
+    x-show="open"
+    x-transition
+    x-cloak
+  >
+    <ul class="flex flex-col space-y-2 mt-3 pb-4">
+      <li>
+        <a
+          href="/profile"
+          class="block px-4 py-2 text-primary hover:bg-green-50"
+          >Profil Sekolah</a
+        >
+      </li>
+      <li>
+        <a href="/news" class="block px-4 py-2 text-primary hover:bg-green-50"
+          >Berita</a
+        >
+      </li>
+      <li>
+        <a
+          href="/achievements"
+          class="block px-4 py-2 text-primary hover:bg-green-50">Prestasi</a
+        >
+      </li>
+      <li>
+        <a
+          href="/contact"
+          class="block px-4 py-2 text-primary hover:bg-green-50">Kontak</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
