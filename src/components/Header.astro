@@ -1,17 +1,14 @@
 ---
 import { Image, getImage } from 'astro:assets';
-import bgcover from '../../src/assets/cover.jpg'
+import bgcover from '../../src/assets/mifda-1.jpeg'
 const cover = await getImage({ src: bgcover })
 ---
 <header class="bg-white">
   <div class="relative w-full h-screen bg-cover bg-center bg-fixed before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:z-10 before:opacity-50" style={`background-image: url(${cover.src});`}>
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20 w-full px-6">
-      <h6 class="text-xl font-bold text-yellow-400">Welcome To</h6>
-      <h1 class="text-4xl text-center mx-auto w-full md:max-w-1/2 md:text-6xl my-4 font-bold text-white">MAS MIFTAHUL HUDA TAMBAK JAYA</h1>
-      <div class="md:w-1/2 mx-auto px-2 py-2 flex flex-row justify-between bg-white rounded-full">
-        <input type="text" placeholder="Apa yang ingin anda cari?" class="grow outline-none" />
-        <button class="bg-green-800 text-white px-6 py-2 ml-2 rounded-full">Cari</button>
-      </div>
+      <h6 class="text-xl font-bold text-white bg-green-800 py-2 px-6 rounded-full w-max mx-auto text-center">Welcome To</h6>
+      <h1 class="text-2xl text-center mx-auto w-full md:max-w-1/2 sm:text-3xl md:text-6xl my-4 font-bold text-white">MAS MIFTAHUL HUDA TAMBAK JAYA</h1>
+      <p class="capitalize text-white">mewujudkan pendidikan yang bermanfaat, baik di dunia maupun akhirat</p>
     </div>
   </div>
 </header>
