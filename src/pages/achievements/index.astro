@@ -2,7 +2,7 @@
 import FormattedDate from "../../components/FormattedDate.astro";
 import Layout from "../../layouts/Layout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
-import bgcover from '../../assets/cover.jpg'
+import bgcover from '../../assets/cover.webp'
 import { Image, getImage } from 'astro:assets';
 import { getCollection } from "astro:content";
 
@@ -19,7 +19,7 @@ const breadcrumbItems = [
   { label: "Achievements", href: "/achievements" },
 ]
 ---
-<Layout title="Kumpulan Prestasi Siswa">
+<Layout title="Prestasi Siswa">
 	<section class="relative w-full bg-cover bg-center bg-fixed before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:opacity-50" style={`background-image: url(${cover.src});`}>
 		<div class="container relative mx-auto">
 			<div class="flex flex-col justify-center items-center h-96">

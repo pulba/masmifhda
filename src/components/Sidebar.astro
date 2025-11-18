@@ -24,12 +24,15 @@ const posts = (await getCollection("announcements"))
         </div>
         <RecentPost />
         <hr class="h-px my-8 bg-neutral-200 border-0" />
-        <h2 class="text-xl text-green-800 font-bold mb-3">Pengumuman</h2>
+        <div class="flex items-center gap-2 mb-3">
+            <h2 class=" text-green-800 flex-none uppercase">Pengumuman</h2>
+            <span class="inline-block grow  w-full h-px bg-green-800/50"></span>
+        </div>
         {
             posts.map((post) => (
                 <div class="bg-white text-green-800 text-primary p-2 shadow rounded-sm flex gap-2 mt-3">
-                    <div class="w-20 h-20 shrink-0 overflow-hidden rounded-md">
-                        <a href={`/announcements/${post.id}/`}>
+                    <div class="w-20 h-20 lg:w-20 lg:h-16 shrink-0 overflow-hidden rounded-md">
+                        <a href={`/announcements/${post.id}/`} aria-label="Mas Mifhda">
                             {post.data.heroImage && (
                                 <Image
                                     width={720}
@@ -45,8 +48,8 @@ const posts = (await getCollection("announcements"))
                         <p class="text-green-800 text-sm">
                             <FormattedDate date={post.data.pubdate} />
                         </p>
-                        <a href={`/announcements/${post.id}/`}>
-                            <h4 class="font-bold lg:text-sm">
+                        <a href={`/announcements/${post.id}/`} aria-label="Mas Mifhda" >
+                            <h4 class="font-bold text-sm lg:text-xs leading-tight">
                                 {excerpt(post.data.title, 50)}...
                             </h4>
                         </a>

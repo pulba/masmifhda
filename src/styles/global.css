@@ -4,6 +4,10 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+@theme {
+    --font-dafoe: "Mr Dafoe", cursive;
+}
+
 @utility prose-pink {
   @apply prose;
   & > * {
@@ -139,7 +143,7 @@ body {
   h4,
   h5,
   h6 {
-    @apply my-4 font-medium empty:hidden;
+    @apply my-4 font-bold text-green-800 empty:hidden;
   }
 
   p {

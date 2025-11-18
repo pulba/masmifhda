@@ -4,7 +4,7 @@ title: 'JUARA 1 LOMBA MURAL PELAJAR HUT KOTA YOGYAKARTA KE-269'
 description: 'Pellentesque nunc nisi, pharetra nec fermentum et, vehicula mattis sem. Donec imperdiet neque risus, nec efficitur sem tristique non. Suspendisse vel tincidunt quam'
 pubdate: 'Jul 08 2022'
 author: 'Firli'
-heroImage: '../../assets/juara.jpg'
+heroImage: '../../assets/cover.webp'
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna orci, suscipit ut ante at, pretium lacinia enim. Vestibulum vel neque quis magna consectetur semper sed ut lectus. Proin enim turpis, luctus ut sapien ut, posuere aliquam nibh. Quisque bibendum pulvinar fermentum. Nulla imperdiet dolor at sapien eleifend, sed placerat massa faucibus. Fusce quis ullamcorper justo, in vehicula turpis. Suspendisse rhoncus ante finibus posuere ultrices. Morbi nec quam vestibulum, tristique elit sed, tincidunt leo. Nunc ac vehicula mi, non pretium metus. Maecenas vel purus in magna malesuada molestie. Pellentesque sodales, enim nec lacinia efficitur, elit tellus vehicula mauris, mattis rutrum mauris risus laoreet libero. Nunc congue turpis sit amet justo malesuada ornare. Donec et vulputate turpis. Praesent ac imperdiet ipsum, non blandit lectus. Suspendisse pulvinar hendrerit accumsan.
 

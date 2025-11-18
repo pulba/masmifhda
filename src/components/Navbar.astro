@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.webp";
 ---
 
-<nav
+<nav role="navigation"
   x-data="{ open: false }"
   class="py-4 px-6 flex flex-col md:flex-row justify-between items-center sticky top-0 z-50 bg-white w-full shadow"
 >
@@ -12,7 +12,7 @@ import Logo from "../assets/logo.png";
       href="/"
       class="flex gap-2 items-center font-bold text-lg text-green-800"
     >
-      <Image src={Logo} alt="logo ma miftahul huda sanyir" class="w-12 h-12" />
+      <Image src={Logo} alt="logo ma miftahul huda sanyir" class="w-12 h-auto" />
       <h1>MAS MIFHDA</h1>
     </a>
     <!-- Tombol hamburger mobile -->
@@ -62,6 +62,11 @@ import Logo from "../assets/logo.png";
         <a href="/news" class="text-primary hover:text-secondary">Berita</a>
       </li>
       <li>
+        <a href="/announcements" class="text-primary hover:text-secondary"
+          >Pengumuman</a
+        >
+      </li>
+      <li>
         <a href="/achievements" class="text-primary hover:text-secondary"
           >Prestasi</a
         >
@@ -82,25 +87,25 @@ import Logo from "../assets/logo.png";
       <li>
         <a
           href="/profile"
-          class="block px-4 py-2 text-primary hover:bg-green-50"
+          aria-label="Mas Mifhda" class="block px-4 py-2 text-primary hover:bg-green-50"
           >Profil Sekolah</a
         >
       </li>
       <li>
-        <a href="/news" class="block px-4 py-2 text-primary hover:bg-green-50"
+        <a href="/news" aria-label="Mas Mifhda" class="block px-4 py-2 text-primary hover:bg-green-50"
           >Berita</a
         >
       </li>
       <li>
         <a
           href="/achievements"
-          class="block px-4 py-2 text-primary hover:bg-green-50">Prestasi</a
+          aria-label="Mas Mifhda" class="block px-4 py-2 text-primary hover:bg-green-50">Prestasi</a
         >
       </li>
       <li>
         <a
           href="/contact"
-          class="block px-4 py-2 text-primary hover:bg-green-50">Kontak</a
+          aria-label="Mas Mifhda" class="block px-4 py-2 text-primary hover:bg-green-50">Kontak</a
         >
       </li>
     </ul>

@@ -2,7 +2,7 @@
 import FormattedDate from "../../components/FormattedDate.astro";
 import Layout from "../../layouts/Layout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
-import bgcover from '../../assets/cover.jpg'
+import bgcover from '../../assets/cover.webp'
 import { Image, getImage } from 'astro:assets';
 import { getCollection } from "astro:content";
 
@@ -13,7 +13,7 @@ const posts = (await getCollection("announcements")).sort(
 	(a, b) => b.data.pubdate.valueOf() - a.data.pubdate.valueOf(),
 );
 
-const { title= "Kumpulan Pengumuman" } = Astro.props;
+const { title= "Pengumuman" } = Astro.props;
 const breadcrumbItems = [
   { label: "Home", href: "/" },
   { label: "Announcements", href: "/announcements" },

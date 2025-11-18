@@ -3,19 +3,43 @@ import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import "../styles/global.css";
 import '@fontsource/poppins';
-const { title } = Astro.props;
+const { title = '', description, url, image } = Astro.props; 
+const siteName = "MAS MIFTAHUL HUDA SANYIR";
 ---
 <!doctype html>
 <html lang="id">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{title} || MAS MIFTAHUL HUDA SANYIR</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} || ` : ''}{siteName}</title>  
+    <meta name="description" content={description ?? "Profil dan layanan Mas Miftahul Huda Sanyir"}/>  
+    <meta name="robots" content="index,follow" />  
+    <link rel="canonical" href={url ?? "https://masmifhda.sch.id/"} />  
+    <meta property="og:locale" content="id_ID" />  
+    <meta property="og:type" content="website" />  
+    <meta property="og:title" content={title} />  
+    <meta property="og:description" content={description ?? "Profil dan layanan Mas Miftahul Huda Sanyir"}/>  
+    <meta property="og:url" content={url ?? "https://masmifhda.sch.id/"}/>  
+    <meta property="og:image" content={image ?? "https://masmifhda.sch.id/mifda-1.jpeg"}/>  
+    <meta name="twitter:card" content="summary_large_image" />  
+    <meta name="twitter:title" content={title} />  
+    <meta name="twitter:description" content={description ?? "Profil dan layanan Mas Miftahul Huda Sanyir"}/>  
+    <meta name="twitter:image" content={image ?? "https://masmifhda.sch.id/mifda-1.jpeg"}/>  
+    <script type="application/ld+json" set:html={JSON.stringify({  
+      "@context": "https://schema.org",  
+      "@type": "Person",  
+      "name": "Mas Miftahul Huda Sanyir",  
+      "url": url ?? "https://masmifhda.sch.id/",  
+      "image": image ?? "https://masmifhda.sch.id/mifda-1.jpeg"  
+    })}>  
+    </script>  
+    <link rel="icon" type="image/svg+xml" href="/favicon.webp" />  
   </head>
   <body class="bg-white font-sans">
     <Navbar />
-      <slot />
+      <main role="main">
+        <slot />
+      </main>
     <Footer />
   </body>
 </html>

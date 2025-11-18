@@ -20,7 +20,7 @@ const posts = (await getCollection("achievements"))
         posts.map((post) => (
           <div class="bg-white text-green-800 text-primary flex flex-col md:flex-row gap-6 p-4 shadow rounded-sm">
             <div class="relative overflow-hidden rounded-sm hover:rounded-sm ">
-              <a href={`/achievements/${post.id}/`}>
+              <a href={`/achievements/${post.id}/`} aria-label="achievements">
                 {post.data.heroImage && (
                   <Image
                     width={720}
@@ -33,7 +33,7 @@ const posts = (await getCollection("achievements"))
               </a>
             </div>
               <div class="space-y-3">
-                <a href={`/achievements/${post.id}/`}>
+                <a href={`/achievements/${post.id}/`} aria-label="achievements">
               <h4 class="text-xl lg:text-2xl font-bold">{post.data.title}</h4>
               </a>
               <p class=" text-gray-800">{excerpt(post.data.description, 150)}...</p>
@@ -46,6 +46,6 @@ const posts = (await getCollection("achievements"))
         ))
 		  }
     </div>
-    <a href="/achievements" class="bg-green-800 text-white text-center w-max px-4 py-2 mx-auto block mt-6">Tampilkan Semua Prestasi <strong>>></strong></a>
+    <a href="/achievements" aria-label="achievements" class="bg-green-800 text-white text-center w-max px-4 py-2 mx-auto block mt-6">Tampilkan Semua Prestasi <strong>>></strong></a>
   </div>
 </section>

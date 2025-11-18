@@ -1,15 +1,53 @@
 ---
 layout: '../../../layouts/Article.astro'
-title: 'Pembagian Ruang Seleksi Mata Pelajaran Pilihan Coding'
-description: 'Pellentesque nunc nisi, pharetra nec fermentum et, vehicula mattis sem. Donec imperdiet neque risus, nec efficitur sem tristique non. Suspendisse vel tincidunt quam'
-pubdate: 'Jul 08 2022'
-author: 'Firli'
-heroImage: '../../assets/poster.jpg'
+title: 'MA Miftahul Huda dan Semangat OMI: Mengokohkan Talenta Santri di Ajang Olimpiade Madrasah Indonesia'
+description: 'Olimpiade Madrasah Indonesia (OMI) 2025, yang diselenggarakan oleh Kementerian Agama (Kemenag), menjadi panggung penting untuk menyalurkan potensi akademik dan riset siswa madrasah.'
+pubdate: 'Nov 15 2025'
+author: 'Admin'
+heroImage: '../../assets/mifda-13.webp'
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna orci, suscipit ut ante at, pretium lacinia enim. Vestibulum vel neque quis magna consectetur semper sed ut lectus. Proin enim turpis, luctus ut sapien ut, posuere aliquam nibh. Quisque bibendum pulvinar fermentum. Nulla imperdiet dolor at sapien eleifend, sed placerat massa faucibus. Fusce quis ullamcorper justo, in vehicula turpis. Suspendisse rhoncus ante finibus posuere ultrices. Morbi nec quam vestibulum, tristique elit sed, tincidunt leo. Nunc ac vehicula mi, non pretium metus. Maecenas vel purus in magna malesuada molestie. Pellentesque sodales, enim nec lacinia efficitur, elit tellus vehicula mauris, mattis rutrum mauris risus laoreet libero. Nunc congue turpis sit amet justo malesuada ornare. Donec et vulputate turpis. Praesent ac imperdiet ipsum, non blandit lectus. Suspendisse pulvinar hendrerit accumsan.
+Olimpiade Madrasah Indonesia (OMI) 2025, yang diselenggarakan oleh Kementerian Agama (Kemenag), menjadi panggung penting untuk menyalurkan potensi akademik dan riset siswa madrasah. Sebagai lembaga pendidikan Islam, MA Miftahul Huda sangat mendukung dan mendorong para siswanya untuk terlibat aktif dalam kompetisi ini sebagai bagian dari upaya meningkatkan prestasi dan karakter santri.
+## Apa Itu OMI?
+OMI adalah kompetisi yang digagas oleh Kementerian Agama sebagai integrasi dari dua ajang sebelumnya, yakni Kompetisi Sains Madrasah (KSM) dan Madrasah Young Researcher Supercamp (MYRES). 
+Tujuan utamanya adalah membina talenta madrasah dalam bidang sains dan riset dengan basis nilai keislaman. 
+Tema OMI 2025 adalah: 
+> Islam dan Teknologi Digital: Inovasi Sains Untuk Generasi Indonesia Maju dan Berdaya Saing Global.
 
-Pellentesque nunc nisi, pharetra nec fermentum et, vehicula mattis sem. Donec imperdiet neque risus, nec efficitur sem tristique non. Suspendisse vel tincidunt quam. Fusce metus felis, luctus sit amet blandit vitae, tempus vitae lacus. Vestibulum vehicula purus ac ullamcorper facilisis. Nullam molestie quam sed felis tempus aliquet in quis mi. Nunc facilisis metus sapien, at porttitor ipsum sodales quis.
+Tema ini mencerminkan upaya Kemenag untuk menjembatani modernitas sains dengan nilai-nilai Islam dalam pendidikan madrasah.
 
-Sed vel tortor nunc. Fusce malesuada turpis quis urna blandit, vel convallis ipsum fringilla. Nam iaculis suscipit vehicula. Etiam nec suscipit risus, at consectetur ante. Morbi feugiat pulvinar diam, at malesuada tellus luctus ac. Nullam sodales orci sapien, at sagittis libero tristique sit amet. Phasellus ultrices pretium purus, id facilisis enim tincidunt eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## Struktur dan Tahapan Kompetisi
+OMI 2025 diadakan secara berjenjang, yaitu:
+1.	Seleksi tingkat madrasah/sekolah
+2.	Babak kabupaten/kota
+3.	Seleksi tingkat provinsi
+4.	Grand Final Nasional K
+Dari 15.474 peserta di tingkat provinsi, 484 siswa berhasil lolos ke tahap nasional.  Ajang nasional OMI 2025 berlangsung secara luring dari 10–14 November 2025 di Tangerang, provinsi Banten. 
 
-Sed lobortis convallis posuere. Maecenas posuere nisl id mi eleifend fringilla. Sed laoreet, augue id scelerisque fermentum, tortor elit tincidunt mi, id tincidunt nisl velit a diam. Morbi lacinia pulvinar commodo. Nulla magna purus, dictum nec felis sit amet, consectetur vehicula ipsum. Duis at efficitur dui, vel vehicula sem. Nullam quis leo sed est placerat fermentum in eu mauris. Nulla purus massa, malesuada ut elementum in, rutrum ut nunc. Aliquam egestas ligula ac augue aliquet hendrerit. Integer urna mauris, tempor facilisis ex non, commodo tristique arcu.
+## Bidang Lomba
+OMI tidak hanya melombakan mata pelajaran sains (Matematika, Fisika, Biologi, Kimia, Ekonomi, Geografi) dalam jenjang MI, MTs, dan MA, tetapi juga lomba riset. 
+Tiga tema riset utama pada tahun ini adalah:
+-	Ekoteologi (integrasi keislaman dan ilmu) 
+-	Sustainable Development Goals (SDGs)
+-	Transformasi Digital untuk Pembangunan Nasional 
+Dari ribuan dokumen riset yang masuk (9.349 karya dari MTs dan MA), dewan juri memilih tim terbaik untuk presentasi di babak final. 
+
+## Pencapaian dan Prestasi
+-	Ajang OMI 2025 menunjukkan betapa madrasah tidak hanya kuat dalam pendidikan agama, tetapi juga mampu menghasilkan siswa unggul di bidang sains. 
+-	Para pemenang riset OMI Nasional diumumkan di malam penutupan, dengan medali untuk kategori Ekoteologi, SDGs, dan Transformasi Digital. 
+-	Keikutsertaan madrasah dari berbagai provinsi sangat tinggi. Sebagai contoh, kontingen Aceh berhasil membawa pulang 11 medali dari OMI Nasional 2025. 
+
+Makna dan Manfaat Bagi MA Miftahul Huda
+1.	Mengasah Potensi Siswa
+Dengan mendorong siswa ikut OMI, madrasah memberikan peluang bagi mereka untuk berkembang dalam berpikir ilmiah, kreativitas, dan riset.
+2.	Membangun Karakter Islami yang Kompetitif
+Tema riset seperti ekoteologi mengajarkan siswa bahwa ilmu pengetahuan bisa diintegrasikan dengan nilai keislaman. Ini sejalan dengan visi madrasah berkarakter.
+3.	Meningkatkan Reputasi Madrasah
+Jika siswa MA Miftahul Huda berhasil berprestasi di OMI, hal tersebut bisa meningkatkan citra madrasah di tingkat kabupaten, provinsi, bahkan nasional.
+4.	Menjadi Persiapan untuk Masa Depan
+Pengalaman kompetisi sains dan riset akan sangat berguna bagi siswa yang ingin melanjutkan ke perguruan tinggi, terutama di bidang teknologi, sains, atau riset.
+
+## Motivasi untuk Siswa MA Miftahul Huda
+> OMI bukan hanya tentang meraih medali, tetapi tentang membangkitkan semangat ilmiah dan integritas santri. Semoga siswa MA Miftahul Huda bisa memanfaatkan kesempatan ini untuk mengukir prestasi dan menjadi inspirasi bagi madrasah lainnya.
+
+Partisipasi MA Miftahul Huda dalam OMI 2025 adalah investasi strategis. Melalui kompetisi ini, madrasah tidak hanya menunjukkan bahwa siswanya mampu bersaing secara akademik, tetapi juga bahwa nilai-nilai Islam tetap menjadi fondasi dalam pengembangan ilmu pengetahuan.
+Semoga di tahun berikutnya, kita semakin banyak meloloskan siswa ke tingkat provinsi dan nasional, serta terus menanamkan karakter ilmiah dan religius pada setiap santri.

@@ -4,7 +4,7 @@ title: 'Pelaksanaan Tes Kemampuan Akademik (TKA) MA Miftahul Huda Tahun 2025'
 description: 'Dalam rangka meningkatkan mutu lulusan dan mempersiapkan siswa menghadapi jenjang pendidikan yang lebih tinggi, MA Miftahul Huda menyelenggarakan Tes Kemampuan Akademik (TKA) bagi seluruh siswa kelas XII'
 pubdate: 'Nov 06 2025'
 author: 'Admin'
-heroImage: '../../assets/mifda-3.jpeg'
+heroImage: '../../assets/mifda-3.webp'
 ---
 Dalam rangka meningkatkan mutu lulusan dan mempersiapkan siswa menghadapi jenjang pendidikan yang lebih tinggi, MA Miftahul Huda menyelenggarakan Tes Kemampuan Akademik (TKA) bagi seluruh siswa kelas XII. Kegiatan ini dilaksanakan dalam dua gelombang, yaitu:
 -	Gelombang 1 : 3–4 November 2025

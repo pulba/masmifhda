@@ -4,7 +4,7 @@ title: 'Sambutan Kepala Sekolah'
 description: 'Segala puji hanya untuk Allah SWT dan shalawat serta salam semoga tercurah atas nabi yang terakhir, yaitu nabi kita Muhammad SAW, begitu pula atas keluarga, para sahabat dan para pengikutnya.'
 pubdate: 'Jul 08 2025'
 author: 'Admin'
-heroImage: '../../assets/kepsek.jpeg'
+heroImage: '../../assets/kepsek.webp'
 ---
 ## _Bismillahirrohmanirrahim_
 

@@ -4,7 +4,7 @@ title: 'Memperingati Hari Santri 22 Oktober 2025: Santri Siaga Jiwa Raga, Meneru
 description: 'Setiap tanggal 22 Oktober, bangsa Indonesia memperingati Hari Santri Nasional, sebuah momentum penting yang mengakui peran santri dan ulama dalam perjuangan kemerdekaan serta pembangunan moral bangsa'
 pubdate: 'Oct 22 2025'
 author: 'Admin'
-heroImage: '../../assets/mifda-2.jpeg'
+heroImage: '../../assets/mifda-2.webp'
 ---
 Setiap tanggal 22 Oktober, bangsa Indonesia memperingati Hari Santri Nasional, sebuah momentum penting yang mengakui peran santri dan ulama dalam perjuangan kemerdekaan serta pembangunan moral bangsa. Hari Santri ditetapkan oleh pemerintah melalui Keputusan Presiden Nomor 22 Tahun 2015 sebagai bentuk penghormatan terhadap perjuangan para kiai, pesantren, dan santri dalam membela tanah air.
 

@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro"
 import Breadcrumb from "../components/Breadcrumb.astro";
 import { Image, getImage } from 'astro:assets';
-import bgcover from '../assets/cover.jpg'
+import bgcover from '../assets/cover.webp'
 import { getCollection } from "astro:content";
 
 const cover = await getImage({ src: bgcover })
@@ -15,7 +15,7 @@ const breadcrumbItems = [
 ---
 
 
-<Layout title="Kumpulan Berita">
+<Layout title="Contact">
 	<section class="relative w-full bg-cover bg-center bg-fixed before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:opacity-50" style={`background-image: url(${cover.src});`}>
 		<div class="container relative mx-auto">
 			<div class="flex flex-col justify-center items-center h-96">

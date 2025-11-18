@@ -4,7 +4,7 @@ title: 'Memaknai Hari Sumpah Pemuda: Momentum Menguatkan Semangat Persatuan dan 
 description: 'Setiap tanggal 28 Oktober, bangsa Indonesia memperingati salah satu momen paling bersejarah dalam perjuangan kemerdekaan, yaitu Hari Sumpah Pemuda'
 pubdate: 'Oct 28 2025'
 author: 'Admin'
-heroImage: '../../assets/poster-2.jpeg'
+heroImage: '../../assets/poster-2.webp'
 ---
 Setiap tanggal 28 Oktober, bangsa Indonesia memperingati salah satu momen paling bersejarah dalam perjuangan kemerdekaan, yaitu Hari Sumpah Pemuda. Peristiwa yang terjadi pada tahun 1928 ini bukan hanya menjadi tonggak persatuan bangsa, tetapi juga membuktikan bahwa semangat pemuda mampu melampaui perbedaan suku, bahasa, dan budaya demi satu cita-cita bersama: Indonesia Merdeka.
 

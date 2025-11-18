@@ -38,7 +38,7 @@ const posts = (await getCollection("news"))
                 <FormattedDate date={post.data.pubdate} />
               </p>
             </div>
-              <a href={`/news/${post.id}/`}>
+              <a href={`/news/${post.id}/`} aria-label="news">
               <h4 class="font-bold my-2">{excerpt(post.data.title, 50)}...</h4>
               </a>
               <p class="text-sm">{excerpt(post.data.description, 100)}...</p>

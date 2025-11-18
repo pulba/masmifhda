@@ -26,8 +26,8 @@ const recentPosts = allEntries
             const href = `/${post.collection}/${post.id}/`;
             return (
                 <div class="flex gap-2 shadow p-2 rounded-md">
-                    <div class="w-20 h-20 shrink-0 overflow-hidden rounded-md">
-                    <a href={href}>
+                    <div class="w-20 h-20 lg:w-20 lg:h-16 shrink-0 overflow-hidden rounded-md">
+                    <a href={href} aria-label="Mas Mifhda" >
                         {post.data.heroImage && (
                             <Image
                                 width={720}
@@ -43,8 +43,8 @@ const recentPosts = allEntries
                     <p class="text-xs text-gray-500">
                     {post.data.pubdate.toLocaleDateString()}
                 </p>
-                <a href={href} class="block">
-                    <h3 class="text-sm text-green-800 font-semibold">{excerpt(post.data.title, 50)}...</h3>
+                <a href={href} aria-label="Mas Mifhda" class="block">
+                    <h3 class="text-sm lg:text-xs leading-tight text-green-800 font-semibold">{excerpt(post.data.title, 50)}...</h3>
                 </a>
                 </div>
                 </div>
